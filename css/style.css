@@ -1,0 +1,27 @@
+canvas {
+  border:2px solid red;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  
+  
+}
+body {
+  background-color:rgb(178, 179, 173);
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@media screen and (max-width:500px) {
+        body{
+          max-width: 500px;
+          width: 500px;
+        }
+        canvas{
+          max-width: 500px;
+          width: 500px;
+        }
+        
+}
